@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.022" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="C:\Users\86185\Desktop\tutorial4\target\test-classes;C:\Users\86185\Desktop\tutorial4\target\classes;D:\JavaTools\maven_repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;D:\JavaTools\maven_repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;D:\JavaTools\maven_repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;D:\JavaTools\maven_repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;D:\JavaTools\maven_repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;D:\JavaTools\maven_repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;D:\JavaTools\maven_repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;D:\JavaTools\maven_repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\86185\AppData\Local\Temp\surefire8842048857170775287\surefirebooter1983562748662790346.jar C:\Users\86185\AppData\Local\Temp\surefire8842048857170775287 2022-10-04T18-57-06_686-jvmRun1 surefire14149751119688279058tmp surefire_06673363780005989399tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\86185\Desktop\tutorial4\target\test-classes;C:\Users\86185\Desktop\tutorial4\target\classes;D:\JavaTools\maven_repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;D:\JavaTools\maven_repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;D:\JavaTools\maven_repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;D:\JavaTools\maven_repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;D:\JavaTools\maven_repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;D:\JavaTools\maven_repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;D:\JavaTools\maven_repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;D:\JavaTools\maven_repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\86185"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\86185\Desktop\tutorial4"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\86185\AppData\Local\Temp\surefire8842048857170775287\surefirebooter1983562748662790346.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="86185"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\JavaTools\maven_repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\86185\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="C:\Users\86185\Desktop\tutorial4"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\86185\bin;D:\Git\mingw64\bin;D:\Git\usr\local\bin;D:\Git\usr\bin;D:\Git\usr\bin;D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Users\86185\bin;C:\Program Files\Common Files\Oracle\Java\javapath;D:\Git\cmd;%C_EM64T_REDIST11%bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;D:\JavaTools\apache-maven-3.8.6-bin (1)\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-18.0.2.1\bi;C:\Program Files\Java\jdk-18.0.2.1\jre\bin;.;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Users\86185\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\CLion 2019.3.5\bin;C:\Program Files\Bandizip;C:\Xilinx\Vivado\2016.2\tps\mingw\4.9.1\win64.o\nt64\bin;?C;D:\Git\Xilinx\Vivado\2016.2\tps\mingw\4.9.1\win64.o\nt64\bin;D:\Microsoft VS Code\bin;D:\Git\usr\bin\vendor_perl;D:\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="testSubtract" classname="org.example.CalcTest" time="0.018">
+    <failure message="expected: &lt;2&gt; but was: &lt;6&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2> but was: <6>
+	at org.example.CalcTest.testSubtract(CalcTest.java:16)
+]]></failure>
+  </testcase>
+  <testcase name="testAddition" classname="org.example.CalcTest" time="0"/>
+</testsuite>
